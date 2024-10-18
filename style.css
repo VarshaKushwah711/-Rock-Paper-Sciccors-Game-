@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif, Comic-Sans-MS;
+    text-align: center;
+    background: url("it.jpg") no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 10px;
+}
+.container{
+    width : 80%;
+    margin : 0 auto; 
+    padding : 20px; 
+    background : rgb(255,255,255,0.9);
+    border-radius : 15px;
+    box-shadow : 0 4px 30px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+.container:hover {
+    transform: scale(1.02);
+}
+
+.image-container, .main-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.decorative-image {
+    margin: 20px auto;
+    display: block;
+    box-shadow:4px #412650;
+}
+
+
+h1{
+    /*background-color :#FFFDF2;*/
+    color: #fffdf2;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 20px;
+}
+.choices button{
+    font-size : 17px;
+    padding : 12px 35px;
+    margin : 10px;
+    border : none;
+    border-radius: 25px;
+    cursor:pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.choices button:hover{
+    transform: translateY(-2px);
+}
+.choices button:active {
+    transform: scale(0.95); 
+}
+
+
+#rock{
+    background-color : #e64b4b;
+    color : white;
+}
+#paper{
+    background-color : #4593d3;
+    color : white;
+}
+#scissors{
+    background-color : #279f2d;
+    color : white;
+}
+.result p {
+    font-size: 20px;
+    margin-top: 10px; 
+    color: #0a235e;
+}
+
+@media (max-width: 600px) {
+    .choices button {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    .container {
+        width: 90%; 
+    }
+}
