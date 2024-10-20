@@ -38,13 +38,14 @@ The game keeps going until you decide to step away, offering a fun and interacti
 - **Git**: Version control.
 
   
-## License
+## 🪪 License
 
 [MIT license](LICENSE)
 
 ## 💻 Screenshots
-  
-![Screenshot 2024-10-18 231715](https://github.com/user-attachments/assets/61bc19ff-41a4-4060-a7d5-f45012084748)
+
+![Screenshot 2024-10-20 231743](https://github.com/user-attachments/assets/bd6704d7-49f9-482b-b9c9-cd691c27b844)
+
 
 
 
